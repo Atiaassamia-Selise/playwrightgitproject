@@ -5,6 +5,7 @@ import {LoginPage} from '../pages/login';
 
 test('test', async ({ page }) => {
 
+  // Automation code by Atia As Samia
   const Login = new LoginPage(page)
   test.setTimeout(60000); // 60 seconds
   await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
